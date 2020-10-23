@@ -10,3 +10,5 @@ After importing the required modules in the first section of the code, the myCal
 Downloading the two 2 .CSV files, sign_mnist_test.csv and sign_mnist_train.csv from https://www.kaggle.com/datamunge/sign-language-mnist/home to the local machine, 
 and uploading them to the notebook using files.upload().  
 Then, the get_data function is defined to read the .CSV files and convert them to train/test images. Each line of the files contians 785 comma separated values between 0 and 255. The first value is the label of the sign language which is an integer between 0 and 24 (no cases for 9=J or 25=Z because of gesture motions. Therefore, there exist 24 classes). The 784 pixel values (comma separated values) are then converted to 28*28 images. Below, two example sign language, the size of train and test sets, and the label information for signs are provided. 
+
+![alt text](https://github.com/Arazsh/Sign-Language-Recognizer/blob/media/image1.png?raw=true) 
