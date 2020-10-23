@@ -22,6 +22,7 @@ The onvolutional block of the model consists of four convolutional layers and a 
 The epochs for model.fit is set to 40. Since callbacks is used, the training stops before 40 epochs.
 
 ## Plotting accuracy/loss vs. epochs for both train and validation sets
+
 ![alt text](https://github.com/Arazsh/Sign-Language-Recognizer/blob/media/plot.png?raw=true)
 
 
